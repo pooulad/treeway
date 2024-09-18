@@ -5,13 +5,13 @@ Show your files and directories like tree branches🌴
 # install with npm
 
 ```bash
-npm install @pooulad/treeway
+npm install @poouladorbit/treeway
 ```
 
 # install with yarn
 
 ```bash
-yarn add @pooulad/treeway
+yarn add @poouladorbit/treeway
 ```
 
 # Usage
@@ -20,7 +20,7 @@ To use the treeway🌴, use the following example:
 
 ```javascript
 import React from "react";
-import Treeway from "@pooulad/treeway";
+import Treeway from "@poouladorbit/treeway";
 
 function Test() {
   const items = [
