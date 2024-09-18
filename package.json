@@ -1,6 +1,6 @@
 {
   "name": "@poouladorbit/treeway",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Show your files and directories like tree branches🌴",
   "keywords": [
     "react",
@@ -32,7 +32,7 @@
     "build": "rollup -c --bundleConfigAsCjs",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "semantic-release":"semantic-release"
+    "semantic-release": "semantic-release"
   },
   "author": "pooulad",
   "license": "MIT",
@@ -75,7 +75,7 @@
     "tslib": "^2.7.0",
     "typescript": "^5.6.2"
   },
-  "publishConfig":{
-    "access":"public"
+  "publishConfig": {
+    "access": "public"
   }
 }
