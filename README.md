@@ -61,6 +61,14 @@ export default Test;
 
 This is my first package😁. So if you find any issues or have suggestions for improvements, please open an issue or submit a pull request on [GitHub](https://github.com/pooulad/treeway).
 
+Please follow the semantic-release package rules for commits. for more information see [Semantic-Release](https://github.com/semantic-release/semantic-release)
+
 # License
 
 This project is licensed under the MIT [License](LICENSE) - see the [License](LICENSE) file for details.
+
+# Todo
+
+- [ ] imporve style
+- [ ] add checkbox(optional props)
+
