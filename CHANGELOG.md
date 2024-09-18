@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/pooulad/treeway/compare/v1.0.2...v1.0.3) (2024-09-18)
+
+
+### Bug Fixes
+
+* 🌴edit README.md file again ([0021abb](https://github.com/pooulad/treeway/commit/0021abb7c35c378acc51b09bbf992c2c8a565ca4))
+
 ## [1.0.2](https://github.com/pooulad/treeway/compare/v1.0.1...v1.0.2) (2024-09-18)
 
 
