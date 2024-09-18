@@ -24,7 +24,8 @@
   "files": [
     "dist",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "images"
   ],
   "type": "module",
   "scripts": {
