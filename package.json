@@ -1,0 +1,81 @@
+{
+  "name": "@poouladorbit/treeway",
+  "version": "0.0.0-development",
+  "description": "Show your files and directories like tree branches🌴",
+  "keywords": [
+    "react",
+    "treeway",
+    "react-component",
+    "react-tree",
+    "tree-folder"
+  ],
+  "homepage": "https://github.com/pooulad/treeway",
+  "bugs": {
+    "url": "https://github.com/pooulad/treeway/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pooulad/treeway.git"
+  },
+  "repositoryUrl": "https://github.com/pooulad/treeway.git",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "type": "module",
+  "scripts": {
+    "test": "exit 0",
+    "build": "rollup -c --bundleConfigAsCjs",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "semantic-release":"semantic-release"
+  },
+  "author": "pooulad",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.9.0",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.0",
+    "@semantic-release/github": "^10.3.4",
+    "@semantic-release/npm": "^12.0.1",
+    "@semantic-release/release-notes-generator": "^14.0.1",
+    "@storybook/addon-essentials": "^8.3.0",
+    "@storybook/addon-interactions": "^8.3.0",
+    "@storybook/addon-links": "^8.3.0",
+    "@storybook/addon-onboarding": "^8.3.0",
+    "@storybook/blocks": "^8.3.0",
+    "@storybook/react": "^8.3.0",
+    "@storybook/react-vite": "^8.3.0",
+    "@storybook/test": "^8.3.0",
+    "postcss": "^8.4.47",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rollup": "^4.21.3",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "semantic-release": "^24.1.1",
+    "@semantic-release/git": "^10.0.1",
+    "storybook": "^8.3.0",
+    "tslib": "^2.7.0",
+    "typescript": "^5.6.2"
+  },
+  "publishConfig":{
+    "access":"public"
+  }
+}
